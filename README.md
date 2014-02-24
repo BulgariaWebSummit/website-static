@@ -1,4 +1,5 @@
-website-static
-==============
+Bulgaria Web Summit Website
+===========================
 
-The Conference Website
+An ordinary website :)
+http://bulgariwebsummit.com
