@@ -431,7 +431,7 @@ Eclipse и дори малко LightTable и SublimeText</p>
         <!-- end event-item -->
         <li class="event-item clearfix span3 vevent">
           <div class="event-date">
-            <time  class="dtstart" datetime="2014-02-27 19:00">27 февруари 19:00</time>
+            <time  class="dtstart" datetime="2014-02-27 19:00">Март</time>
           </div>
           <!-- end event-date -->
           <div class="share-widget"><br/> </a> 
@@ -497,7 +497,7 @@ Eclipse и дори малко LightTable и SublimeText</p>
         <!-- end event-item -->
                 <li class="event-item clearfix span3">
           <div class="event-date">
-            <time datetime="2014-09-25">Март</time>
+            <time datetime="2014-09-25">Април</time>
           </div>
           <!-- end event-date -->
           <div class="share-widget"> <br/> </a> 
@@ -704,9 +704,5 @@ Eclipse и дори малко LightTable и SublimeText</p>
 <script type="text/javascript" src="js/jquery.validationengine.min.js"></script> 
 <script type="text/javascript" src="js/tweetie.min.js"></script> 
 <script type="text/javascript" src="js/custom.js"></script> 
-<!-- Google analytics here -->
-<script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://widget.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: '274d3333-d7c2-4b3e-8623-910723c30720', f: true }); done = true; } }; })();</script>
-
-<script type="text/javascript" src="//s3.amazonaws.com/scripts.hellobar.com/35135214ac217048db733c673224300fe2e3b06e.js"></script>
 </body>
 </html>
