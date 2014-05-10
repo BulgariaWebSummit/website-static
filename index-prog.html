@@ -1,0 +1,967 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Bulgaria Web Summit 2014: #Програмиране, #UX, #UI, #Уеб, #Устройства</title>
+<meta name="description" content="Kонференция в София на 31 май. Лектори от Google, GitHub, Smashing и български звезди. Ела! " />
+<meta name="keywords" content="Програмиране, UX, UI, Вградени устройства, Маркетинг, Социални Мрежи, Сигурност и Бизнес." />
+<meta name="author" content="Екип Нула Еоод." />
+<!-- Mobile Specific Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/fonts.css" />
+<link rel="stylesheet" href="css/fontello.css" />
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/jquery.validationengine.css" />
+	<link rel="stylesheet" href="css/flexslider.css">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<!-- Favicon and touch icons -->
+<link rel="apple-touch-icon" href="images/touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/touch-icon-ipad-retina.png">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46633287-1', 'bulgariawebsummit.com');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<header class="top-bar" id="topbar">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="navbar main-nav pull-right">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <nav>
+            <div class="nav-collapse collapse">
+              <ul id="mainnav" class="nav">
+                <li> <a href="#about" onclick="ga('send', 'event', 'nav', 'click', 'about');">За събитието</a> </li>
+                 <li> <a href="#schedule" onclick="ga('send', 'event', 'nav', 'click', 'schedule');">Програмата</a> </li>
+                <li> <a href="#speakers" onclick="ga('send', 'event', 'nav', 'click', 'speakers');">Лектори и Лекции</a> </li>
+                <!--<li><a href="#workshops" onclick="ga('send', 'event', 'nav', 'click', 'webinars');">Уебинари</a> </li>-->
+                <li><a href="#venue" onclick="ga('send', 'event', 'nav', 'click', 'venue');">Къде</a> </li>
+                <li><a href="#sponsors" onclick="ga('send', 'event', 'nav', 'click', 'sponsors');;">Спонсори</a> </li>
+                <li><a href="#contact" onclick="ga('send', 'event', 'nav', 'click', 'contacts');;">Контакти</a> </li>
+                <li><a href="" onclick="ga('send', 'event', 'light', 'click', 'light0');" data-toggle="modal" data-target="#modal-register"><span style="color:#FF0066;">Купете билет от тук</span></a> </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- end navbar -->
+      </div>
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</header>
+<!-- end top-bar -->
+<section id="intro">
+  <div class="container">
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <!-- slide 2 -->
+          <div class="row jumbotron">
+            <div class="span12 text-center">
+              <h1  class="url summary">Bulgaria Web Summit 2014</h1>
+              <h3 class="info"><span class="days">31</span><span class="month"><b>Май</b></span><span class="year">2014</span><span class="location">софия</span></h3>
+              <a href="" data-toggle="modal" data-target="#modal-register" class="btn btn-large" onclick="ga('send', 'event', 'light', 'click', 'light1');">Купете билет</a> </div>
+            <!-- end span12 -->
+          </div>
+          <!-- end row -->
+        </li>
+        <!-- end slide 2 -->
+
+      </ul>
+    </div>
+    <!-- end flexslider -->
+  </div>
+  <!-- end container -->
+</section>
+<!-- end intro section -->
+<!-- Modal -->
+<div class="modal hide fade" id="modal-register"  style="width:650px;height:550px">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Вече сме в 4 зали.</h3>
+  </div>
+  <div class="modal-body">
+    <h6>След като свършиха всичките 500 билета, решихме да вземем нова зала, за да можем да предложим още билети и по-полезна програма.</h6>
+     <small>За плащане по банков път или за фирмени отстъпки, моля, пишете на hello@bulgariawebsummit.com</small>
+  <div style="width:100%; text-align:left;"><iframe src="http://sabitie.bg/code/event/419/size/2" frameborder="0" height="400" width="620" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
+   
+
+  </div>
+  <!-- end modal-body -->
+  <div class="modal-footer"> <a data-dismiss="modal" class="btn">Затвори</a> </div>
+</div>
+
+<div class="modal hide fade" id="modal-event">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Регистрация за уебинар</h3>
+  </div>
+  <div class="modal-body">
+    <h5>Тези уебинари са за участници в конференцията. Ако вече сте регистриран/а, изпратете мейл на <a href="mailto:webinars@bulgariawebsimmit.com">webinars@bulgariawebsummit.com</a> за да заявите участие.</h5>
+      </div>
+  <!-- end modal-body -->
+  <div class="modal-footer"> <a data-dismiss="modal" class="btn">Затвори</a> </div>
+</div>
+
+
+<!-- top-bar, intro & modal end here -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="module-header about-header">
+          <h4>За събитието</h4>
+        </div>
+        <!-- end module-header -->
+      </div>
+      <div class="span12 hero-unit text-center">
+        <h1>Конференция за (уеб) технологии, дизайн и бизнес</h1>
+        <h3>
+          <time datetime="2014-05-31">31</time> май, София</h3>
+        <h4>#Програмиране, #UX, #UI, #Вградени устройства, #Маркетинг, #Социални Мрежи, #Сигурност и #Бизнес.<br>
+          ЧЕТИРИ зали, ТРИ потока, <strong>600</strong> посетители</h4>
+      </div>
+      <!-- end hero-unit -->
+      <div class="span12">
+        <div class="divider-space"></div>
+      </div>
+      <div class="span3 text-center">
+        <div class="icon-wrap large color1"><i class="iconf-like"></i> </div>
+        <h3>Полза</h3>
+        <p>Практически лекции, които можете да приложите веднага в работата си и да спечелите време и пари. Таксата за участие всъщност е инвестиция. Инвестиция в самите Вас.</p>
+      </div>
+      <div class="span3 text-center">
+        <div class="icon-wrap large color2"><i class="iconf-microphone"></i> </div>
+        <h3>Лектори</h3>
+        <p>Специалисти постигнали много в своите области. Дискутирайте, питайте, научавайте и споделяйте знания. Лекциите ще са практически и полезни.</p>
+      </div>
+      <div class="span3 text-center">
+        <div class="icon-wrap large color3"><i class="iconf-users"></i> </div>
+        <h3>Общност</h3>
+        <p>Полезен микс от посетители и лектори, занимаващи се с <u>програмиране</u>, <u>дизайн</u>, <u>маркетинг</u> и <u>бизнес</u>. Намерете партньори, колеги или идеи, които да развивате.</p>
+      </div>
+      <div class="span3 text-center">
+        <div class="icon-wrap large color3"><i class="iconf-diamond"></i> </div>
+        <h3>Уебинари</h3>
+        <p>Освен събитието офлайн в София, имаме и месечни уебинари на различни теми. Научавайте, заедно с нас нови неща <strong>всеки месец</strong>, а не само един ден.</p>
+      </div>
+    </div>
+    <!-- end row -->
+  </div>
+  <!--end container-->
+</section>
+<section id="register">
+  <div class="container">
+    <div class="row">
+      <div class="span12 white register-box text-center">
+        <h2 class="register-title">Билетите започват само от 75 лева. Да! </h2>
+        <a data-toggle="modal" data-target="#modal-register" id="register-button" class="btn btn-large btn-primary" onclick="ga('send', 'event', 'light', 'click', 'light2');">Инвестирайте в себе си! Кликнете тук!</a> </div>
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</section>
+<section id="speakers">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="module-header speakers-header">
+          <h4>Лектори</h4>
+        </div>
+        <!-- end module-header -->
+      </div>
+      <div class="span12 hero-unit text-center white">
+        <h2>23 лектора ще говорят и демонстрират. Вижте ги!</h2>
+        <p>Постарали сме сме да поканим лектори, които са постигнали много неща в сферата в която се занимават и могат да споделят практически опит. <br/> Лекциите ще са в ТРИ зали. Списъкът ще се <strong>попълва</strong> с нови лектори<br/><br/>Описанието на лектора и лекцията е на езика, на който ще бъде водена.</p>
+      </div>
+      <!-- end hero-unit -->
+      <div class="span12">
+        <div class="divider-space"></div>
+      </div>
+      <div class="span12 speakers-list">
+        <ul class="item-4">
+          <li>
+            <div class="photo-wrap hover_colour"> <img src="http://2013.europe.wordcamp.org/files/2013/07/vitaly_friedman.jpg" width="300" alt=" " height="300"> </div>
+            <div class="text-wrap white">
+              <h3>Витали Фридман</h3>
+              <h5>Smashing Magazine</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Real-Life Responsive Web Design</strong><br/><br/>
+              Responsive Web design challenges Web designers to adapt a new mindset to their design processes as well as techniques they are using in design and code. <br/><br/>This talk provides an overview of various practical techniques, tips and tricks from real-life projects and discusses front-end techniques, maintenance issues and performance considerations for lightweight responsive design.
+            </p>
+            </div>
+             <div class="social">Author, speaker, co-founder and editor-in-chief of Smashing Magazine, an online magazine for professional Web designers and developers. </div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="images/d.jpeg" width="300" height="300" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Даниш Хан</h3>
+              <h5>GitHub</h5>
+              <h6><a href="https://www.youtube.com/watch?v=EUkFJR_Ird8" target="_blank" class="btn">Видео</a></h6>
+              <hr class="divider-short center">
+              <p class="description"><strong>We are family</strong><br/><br/>
+              Having a great idea, creating useful products, and writing stellar code can be done by smart people. <br/><br/>The difficult part is figuring out how to get tons of smart people to work well together. <br/><br/>The social aspect is hard, but when you build a culture based off of values that are important to a family you’ll see the amazing things that can be done.
+            </p>
+            </div>
+            <div class="social">Some believe Danish is a direct decedent of Genghis Khan. He will answer to Danish, Mr. Khan and Khan!. He finds teaching to be enjoyable and helps out at some of the local user groups. He currently resides in the beautiful city of San Francisco. He works at GitHub a company that helps developers work better together than alone and sells stickers & t-shirts.
+            <br/><br/>
+             </div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="http://bulgariawebsummit.com/p/selfpersito.jpg" alt=" " width="300" height="300"> </div>
+            <div class="text-wrap white">
+              <h3>Chiara Albanesi</h3>
+              <h5>MOKAlab</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Visual Design Thinking</strong><br/><br/>
+              In a user-centered world we need to co-create experiences with stakeholders in order to deliver meaningful products, contents and interfaces.<br/><br/>
+<br/>The mixture of co-creation, user-experience techniques, responsive and iterative approaches leads to a more agile and generally leaner design process, and even a happier work environment.
+            </p>
+            </div>
+            <div class="social">Chiara Albanesi is a visual designer and ethnographer, who works and lives in Milan.
+She comes from a family of artisans and has an academic background in Aesthetics and Anthropology.
+In 2013 she co-founded MOKAlab, a co-working + open lab for makers and designers. </div>
+            <!-- end carousel item -->
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="https://webexpo.net/files/speakers/prague2013/cache/honza-kral_speakers2013.jpg" alt=" " width="300" height="300"> </div>
+            <div class="text-wrap white">
+              <h3>Honza Kral</h3>
+              <h5>Python Hacker</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Explore your data</strong><br/><br/>
+              I’d like to show to hackers how, using elasticsearch, you can make sense of your data, discover and explore interesting trends in our users’ behavior, create custom dashboards for your users as well as for yourself. <br/><br/>The talk will be 60% code and console commands :) No slides :)</p>
+            </div>
+            <div class="social">Python developer for Elasticsearch: a powerful open source search and analytics engine used by github, sound cloud and more, that makes data easy to explore. </div>
+          </li>
+           <li>
+            <div class="photo-wrap"> <img src="https://2.gravatar.com/avatar/5ca07e641fada5a88a09277c45bd7c1b?d=https%3A%2F%2Fidenticons.github.com%2F9c274b1e7ffd2213a3dfc155d8aee560.png&r=x&s=300" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Стефан Кънев</h3>
+              <h5>Програмист</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Редактори vs. IDE-та</strong><br/><br/> Религиозна тема, в която ще говоря за добрите
+и за лошите страни на двете.  Целта ще бъде да убедя потребителите на едното още утре да пробват другото.  Ще покажа хакерии във Vim, Emacs,
+Eclipse и дори малко LightTable и SublimeText</p>
+            </div>
+            <div class="social"> Стефан е програмист и чест лектор на събития. ВИНАГИ има какво да се научи от него, дори в момента в който се опитваме да го "изгоним" от сцената.</div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="http://m.c.lnkd.licdn.com/media/p/2/000/20c/020/3a22dcb.jpg" alt=" " width="300" height="300"> </div>
+            <div class="text-wrap white">
+              <h3>Радо Георгиев</h3>
+              <h5>Програмист</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Функционално програмиране, JavaScript и уеб</strong><br/><br/>JavaScript, по своята природа е език, който поддържа функционалните парадигми. В много случаи. когато трябва да се борим със "състоянието" на нашето приложение, ако пишем декларативно, нещата изглеждат много по-чисти и лесни за писане.
+
+Стандартът в уеб е, JavaScript да се пише императивно (Всички искаме да сме императори!), но това е само върхът на айсберга. Под функционалните завеси на езика се крие сила, която прави JavaScript по-експресивен и ни помага да се борим със сложността, като хвърляме функции по нея. </p>
+            </div>
+            <div class="social"> Радо, по-известен като РадоРадо, е предприемач-програмист (това е като warrior-mage), който се интересува от всичко свързано с технологии, разработка на софтуер, преподаване, автоматизиране и подобряване на образованието. Основател е на Хак България, представляващо училище за придобиване на практически знания в програмирането.
+В свободното си време се занимава с езици за функционално програмиране.</div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="images/dju.jpg" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Боян Джумаков</h3>
+              <h5>Програмист</h5>
+              <h6><a href="https://www.youtube.com/watch?v=PmcmtpFXQ80" target="_blank" class="btn">Видео</a></h6>
+              <hr class="divider-short center">
+              <p class="description"><strong>Home automation или как къщата ви да ви се подмазва</strong><br/><br/>
+              IoT на практика. Вкарайте великия магьосник във вашия дом. Спрете да поливате цветята, спрете с репликите „Звънна ли някой?“ и „Сега се върни да загасиш лампата“. Home automation системите могат да ви спестят време, да угаждат на мързела ви, да ви подсказват и прочее глезотийки. С помощта на Arduino и Raspberry Pi можете на практика всичко.
+              </p>
+            </div>
+            <div class="social">Боян е програмист, който обича да експериментира и го прави добре. Ще покаже една система, която е разработил с "свободното" си време.</div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="http://bulgariawebsummit.com/p/carlo.jpg" alt=" " width="300" height="300"> </div>
+            <div class="text-wrap white">
+              <h3>Carlo Frinolli</h3>
+              <h5>Creative Director</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Visual Design Thinking</strong><br/><br/>
+              In a user-centered world we need to co-create experiences with stakeholders in order to deliver meaningful products, contents and interfaces.
+<br/>The mixture of co-creation, user-experience techniques, responsive and iterative approaches leads to a more agile and generally leaner design process, and even a happier work environment.
+<br/>The point is focusing on an organic methodology both synchronous and asynchronous in order to drive clients and stakeholders insights and deliver the best meaningful result from the identity of the project itself to the details in the user interface going through the whole user experience journey.
+
+            </p>
+            </div>
+            <div class="social">Carlo is an Experience Designer, Creative Director and CEO at nois3, working and living in Rome. With his hands-on mindset and hacker’s passionate tension, he loves to innovate and experiment in his job and everyday life. And, by the way, the answer is 42.</div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="http://bulgariawebsummit.com/wp-content/uploads/2013/12/neven_b_boyanov_01_120x120fx.png" alt=" " width="300" height="300"> </div>
+            <div class="text-wrap white">
+              <h3>Невен Боянов</h3>
+              <h5>Interlecta</h5>
+              <h6><a href="https://www.youtube.com/watch?v=3qiVeUJbtSA" target="_blank" class="btn">Видео</a></h6>
+              <hr class="divider-short center">
+              <p class="description"><strong>Програмиране на дребни устройства</strong><br/><br/>
+              Eволюцията от микроконтролера до Arduino и Raspberry Pi: Ще бъдат разгледани няколко решения на прости практически проблеми с помощта на 3 различни платформи – обикновен микро-контролер Atmel ATtiny, система Arduino и система Raspberry Pi. Ще бъде направен сравнителен анализ между тях на базата на възможности, цена, производителност и др. Ще бъдат разгледани основните езици (ASM, C/C++, Processing и т. н.) и средства за разработка за тези платформи както и възможността за използването им при изучаване на софтуерните и хардуерните технологии.
+            </p>
+            </div>
+            <div class="social">Невен е програмист, който има много опит в различни сфери. Програмирането на дребни устройства е една от тях и той ще разкаже на разбираем език, как всеки може да започне да програмира за такива устройства.</div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="http://bulgariawebsummit.com/p/peter.png" alt=" " width="300" height="300"> </div>
+            <div class="text-wrap white">
+              <h3>Петър Найденов</h3>
+              <h5>Софтуерен архитект</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Платформа за изграждане на adaptive приложения (fe framework).</strong><br/><br/>
+              Автоматизирано създаване на ресурсни файлове, управление на CSS чрез теми, специализирани ресурсни пакети за различните типове устройства. Нов подход в изграждането на JS приложения. JS обекти и контрол върху тях в реално време. Разделение на модели, контролни модели и структурен JS ( бизнес логика).
+            </p>
+            </div>
+            <div class="social">Мисли повече и пиши по-малко. Автоматизирай рутинното, за да може работата да е удоволствие. Това са водещите принципи в 19 годишната професионална кариера на Петър Найденов, през която е работил като графичен дизайнер, фронт-енд разработчик, UX и UI експерт. Сега, като софтуер архитект в eCommera,  натрупаното знание се трансформира в платформа, улесняваща ежедневието на много уеб специалисти. </div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="http://bulgariawebsummit.com/p/haralan-dobrev-square.png" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Харалан Добрев</h3>
+              <h5>Програмист</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Development Workflows</strong><br/><br/>
+              Version control (GIT), Continuous integration, Unit testing, GitHub Flow. Всичко свързано с development tools & workflows за по-качествен софтуер и по-лесна разработка.
+            </p>
+            </div>
+            <div class="social">Харалан е програмист, който обича принципите на отворения код и често допринася за развитието на разлчни проекти. В момента работи за Clippings.com</div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="images/dave.jpeg" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Dave Hogue</h3>
+              <h5>UX Manager @ Google</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Psychology for User Experience</strong><br/><br/>
+				It has become common for us to complain about a design by saying it has "bad UX", but what does that really mean? <br/><br/>If we dislike the graphics, colors, icons, or typography we identify the design weaknesses, and we will call out grammar and spelling errors and poor content, but "bad UX" oftens means we are vaguely dissatisfied with how something works or makes us feel. <br/>Designing for people means that we need to understand how they feel (emotions), what drives them (motivation), and how they think (cognition) - their interactions (behavior) arise from all of these. 
+            </p>
+            </div>
+            <div class="social">David M. Hogue, Ph.D. is a UX Design Manager at Google, digital strategist, author for lynda.com, and Applied Psychologist with more than 15 years experience studying and designing interfaces.<br/><br/> In addition to being a hands-on designer and researcher who has worked with dozens of high-profile clients in online retail (including Reebok, Benefit Cosmetics, and The North Face) and financial services (including Wells Fargo and Charles Schwab.)<br/> He helps build stronger UX teams through organizational structures and processes, and he provides training and development for team members.  </div>
+          </li>
+          
+          <li>
+            <div class="photo-wrap"> <img src="images/Dimitar_Karaivanov.jpg" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Dimitar Karaivanov</h3>
+              <h5>Co-founder @ Kanbanize</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Visual [R]Evolution</strong><br/><br/>
+				Optimization is the key to success for every modern company. The visual management movement has taken off a few years back and is now the de facto standard for thousands of companies. Let us explore together how visual management combined with lean principles can boost your company performance with more than 500%. 
+            </p>
+            </div>
+            <div class="social">Lean enthusiast and practitioner with strong background in processes improvement, software development and quality management. Dimitar is the mind behind Kanbanize and together with his great team they are building the next generation visual management and productivity software based on the lean methodology Kanban.
+
+ </div>
+          </li>
+          
+          <li>
+            <div class="photo-wrap"> <img src="images/yoan.jpg" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Йоан-Александър Григоров</h3>
+              <h5>Софтуерен инженер</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Въведение в Domain-Driven Design</strong><br/><br/>
+				Целта да запознае аудиторията с основните концепции и предимства, стоящи зад имплиментирането на бизнес модел посредством типични за DDD шаблони и похвати.<br/><br/>Лекцията ще разгледа този проблем в контекста на MVC. Като практика в уеб разработките, MVC се явява един доста добър въвеждащ елемнт за тази тема – уеб разработчиците ползват MVC.<br/>Темата обхваща основни понятия от DDD като Value Objects, Entities, Factories, Repositories и други.
+            </p>
+            </div>
+            <div class="social">Софтуерен инженер с богат опит в PHP и OOP. UML Сертифициран от Object Management Group. Zend Framework гуру.</div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="images/joerg_simon.jpg" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Joerg Simon</h3>
+              <h5>Fedora / ISECOM</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>ISO this * - Welcome to Reality</strong><br/><br/>
+				With examples from the Fedora Project as one of the technical leaders in
+the Open Source Software Eco System and the ISECOM as the creator of the
+OSSTMM, this session gives an introduction to people who are dealing
+with security and safety in their organizations and are looking for ways
+and means to cover real security needs. <br/><br/>This session is an invitation
+for all who are looking for ways to quantify trust and security in an
+unbiased way. It gives an introduction to the current state of the
+Fedora Security Lab and to the new Fedora Security Test Bench.
+            </p>
+            </div>
+            <div class="social">Joerg Simon is a contributor to different OpenSource Projects. You can
+see results of his work as a ISECOM team-member, where he created the
+OSSTMM-Lab as a platform for teaching security - and within the
+Fedora-Project, where he works on Security Test Applications like
+dsniff, unicornscan or others.<br/><br/> He maintains the official
+Fedora-Security-Spin and left his traces as the former FAmSCo Chair and
+a Member of the Fedora Board. He is in charge at HIC AG for the
+HIC-Audit-Service and the Research and Development.</div>
+          </li>
+          
+            <li>
+            <div class="photo-wrap"> <img src="images/deljan.jpg" width="300" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Делян Делчев</h3>
+              <h5>Софтуерен инженер</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong> JavaScript Революция</strong><br/><br/>
+				Не малко ИТ хора са свикнали да се надсмиват над JavaScript като ограничен и бавен програмен език, несериозен. Но това е измама. Днес ние изживяваме JavaScript революция.<br/><br/> Невероятна производителност, покритие на платформи от най-малките контролери, през сет топ бокси, мобилни устройства, десктоп и сървърни софтуери, бази данни, до супер компютри. Покриват се от уеб, през системно програмиране, до stand alone приложения. <br/><br/> Вече дори "сериозните" програмни езици започват да интегрират javascript като част от себе си. Започваме да виждаме реализации на сериозни проекти с javascript от край до край. Чуйте какво се случва и станете част от революцията.
+            </p>
+            </div>
+            <div class="social"> Tелекомуникационен консултант, лобист за отворен софтуер и интернет, софтуерен ентусиаст</div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="images/polle.jpg" width="300" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Polle de Maagdt</h3>
+              <h5>Prime minister</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong> Service is sales</strong><br/><br/>
+				Based on his experience with the global teams of KLM Royal Dutch Airlines, IKEA and Nike, Polle will share his views on how stellar customer service, combined by sales concepts that are social by design can catapult companies into the digital age. <br/><br/>How to use small beta experiments and data to improve your everyday performance.
+            </p>
+            </div>
+            <div class="social">  From my own small company, the Ministry of World Domination, I help companies to be less about ads and more about acts. Currently, amongst others, for the global digital team at KLM Royal Dutch Airlines. </div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="images/marian-marinov-trainers.jpg" width="300" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Мариян Маринов</h3>
+              <h5>CEO</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong> Сравнение между различни "messaging layers"</strong><br/><br/>
+				Сравнение на инсталацията и функционалностите на Gearman, ZeroMQ, ZooKeeper и RabbitMQ. Ще споделя и добрите и лошите страни на всяка система и ще отговарям на въпроси.
+            </p>
+            </div>
+            <div class="social"> CEO на няколко печеливши фирми, системен администратор и разработчик с 15 годишен опит в областта, главен организатор на OpenFest, проповедник на отворения софтуер и отворената култура, с дългогодишен преподавателски опит.</div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="images/pavel.ivanov.jpg" width="300"  height="300" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Павел Иванов</h3>
+              <h5>UX/UI Engineer @ Mozilla</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong> Новини от UX/UI кухнята на Мозила </strong><br/><br/>
+				Тъй като всичко в прoекта мозила се променя почти всеки ден, Павел ще разкаже за актуалното в момента.
+            </p>
+            </div>
+            <div class="social"> Павел се занимава UX/UI на Firefox OS. Той може да говори със седмици за работата си (но няма да му разрешим) и е един от малкото гикове, които обичат работата си повече от бирата.</div>
+          </li>
+          <li>
+            <div class="photo-wrap"> <img src="images/radek-matej_speakers2013.jpg" width="300"  height="300" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Radek Matej</h3>
+              <h5>Product Owner @ Kentico</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>Take Hold of the Wheel; Become a Product Owner </strong><br/><br/>
+              In these agile ages, product management is no longer rocket science. Use backlog and communication to materialize your vision.”
+			<br/><br/>	How to:<br/>
+- create stories and prioritize them in the backlog <br/><br/>
+- collaborate with different team roles, stakeholders and customers<br/><br/>
+- create a long-term plan<br/><br/>
+- overcome common obstacles<br/><br/>
+            </p>
+            </div>
+            <div class="social"> With the UX and Product Management team we are changing our product from being IT-centric to becoming more user friendly for business users. With agile methodologies being adopted company-wide, we are currently experimenting with these to drive a major redesign planned for next year.</div>
+          </li>
+<li>
+            <div class="photo-wrap"> <img src="jbbpic.png" width="300"  height="300" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Jonathan Baker-Bates</h3>
+              <h5>UX Architect @ MailOnline</h5>
+              <hr class="divider-short center">
+              <p class="description"><strong>The Challenge of Data-led Design</strong><br/><br/>
+              How should a UX team respond to the results of randomised control trials of their designs? Such "A/B" and "multivariate" tests hold out the possibility of finding the best approach from a number of alternatives. But what does this mean for the practice of design itself? For over 6 years, Hotels.com has had one of the most advanced experimentation programmes of any website in the world. As manager of the UX Design team there, it was my job to makes sense of quantitative data and apply that to an overall design approach. What did we find out along the way? And in a business infused with numbers, what problems did we face as designers, and how did we show that traditional design methods were still valid?
+
+
+            </p>
+            </div>
+            <div class="social"> Having worked for over 5 years at Expedia Inc. on the Hotels.com UX team in London, England, Jonathan recently started as a lead user experience architect at MailOnline. A member of the Experience Architecture team at LBi UK between 2005-2009, he has been designing digital systems since 1993 on projects for the BBC, Sony, the UK's National Health Service, Santander Bank, Vodafone and others. An enthusiastic user of Linux, he also has an interest in online communities, copyright and FOSS projects in his spare time.</div>
+          </li>
+          
+          
+          <li>
+            <div class="photo-wrap"> <img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/3/000/0ab/031/2303de1.jpg" width="300"  height="300" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Zoltan Nemeth</h3>
+              <h5>Core Systems Manager @ Ustream</h5>
+                <h6><a href="http://www.ustream.tv/recorded/45096480" target="_blank" class="btn">Видео</a></h6>
+              <hr class="divider-short center">
+              <p class="description"><strong>Building and controlling our own CDN</strong><br/><br/>
+              At Ustream we serve millions of viewers globally, and our service requires continuous connection and bandwidth. To achieve this we created our own content delivery platform, balancing and routing users based on real time information. This talk will describe the application architecture which can handle and control all these viewers, and the network techniques we use.
+
+
+            </p>
+            </div>
+            <div class="social"> I did web development (php, java, perl) for various companies since 1997. I am also experienced in architectural and development planning.
+<br/><br/>Used mysql, postgresql, nginx, apache, varnish, mvc frameworks (zend, symfony, some custom ones), nosql engines (redis, cassandra).
+<br/><br/>Then I became a leader of 10 engineers, and after 2 years as team leader I was promoted to Core Systems Manager. In this new position I am the manager of 3 engineering teams, covering the core technologies of Ustream.tv</div>
+          </li>
+          
+          <li>
+            <div class="photo-wrap"> <img src="https://pbs.twimg.com/profile_images/862754324/me_bigger.jpg" width="300"  height="300" alt=" "> </div>
+            <div class="text-wrap white">
+              <h3>Росен Иванов</h3>
+              <h5>Founder @ Postific</h5>
+               <hr class="divider-short center">
+              <p class="description"><strong>Social Media Management</strong><br/><br/>
+              Защо в България все още липсва термина Социален Мениджмънт и защо е толкова важен той през 2014 за малкия и големия бизнес?<br/> Как можем да достигнем до нови клиенти, да анализираме аудиторията на нашия бизнес и как да конвертираме хората наречени "leads" в истински клиенти. <br/> Заедно с това и решението на всички тези проблеми - Postific.com и защо тази платформа е по-различна и по-ефективна от всички останали съзтезатели на пазара в момента.
+
+
+            </p>
+            </div>
+            <div class="social"> Росен Иванов работи повече от 9 години в сферата на ИТ и разработката на Cloud и SAAS платформи. В момента е CEO @ GeekTech.com
+<br/>
+Последните 4 години той работи като Project Manager по няколко големи start-up проекта в САЩ и помага на компании да създадът висококачествени софтуерни решения.
+<br/>
+Най-новият продукт, който той създава в момента се казва Postific, който е Social Media Management платформа.
+<br/>
+Росен е многократен национален шампион по уеб програмиране с над 6 първи места на национални олимпиади и състезания, преподавател в продължение на 2 години в СУ "Св. Кл. Охридски" по SEO и Маркетинг на студенти магистърска степен. </li>
+        </ul>
+        <!-- end speakers -->
+      </div>
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</section>
+
+
+
+<section id="schedule">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="module-header schedule-header">
+          <h4>Предварителна Програма</h4>
+        </div>
+        <!-- end module-header --> 
+      </div>
+      <!-- end span12 -->
+      <div class="span12"> 
+        <!-- Tabs -->
+        <ul id="schedule-tabs" class="nav nav-pills tab-fillspace ">
+          <li class="active"><a href="#dayone" data-toggle="tab">Зала 1 <br/>(Основна)</a> </li>
+          <li class=""><a href="#daytwo" data-toggle="tab">Зала 2 <br/>(#UX, #UI, #VDT)</a> </li>
+          <li class=""><a href="#daythree" data-toggle="tab">Зала 3 <br/>(Бизнес, Маркетинг, Идеи)</a> </li>
+            <li class=""><a href="#day4" data-toggle="tab">Зала 4 <br/>(Технологии, Программиране)</a> </li>
+        </ul>
+        <!-- end tabs --> 
+      </div>
+      <!-- end span12 -->
+      <div class="tab-content">
+        <div class="tab-pane wo-tab-pane fade in active" id="dayone"> 
+          <!-- DAY ONE -->
+          <div class="span3">
+            <h2>Зала 1 - 320 места</h2>
+            <p>В тази основна зала ще видите лекциите събрали най-голям интерес според участниците и организаторите. Тук ще е мястото и за интересни дискусии и светкавични презентации. </p>
+            
+          </div>
+          <!-- end span4 -->
+          <div class="span8"> 
+            <!-- TIMELINE -->
+            <section class="timeline toggle-shortcode toggles"> 
+              <!-- EVENT 1 -->
+              <article class="event">
+                <div class="timeline-icon">
+                  <div class="timeline-icon-container"><i class="iconf-ok"></i> </div>
+                </div>
+                <div class="time-box">
+                  <time>08:30</time>
+                </div>
+                <div class="timeline-content">
+                  <div class="event-content">
+                    <div class="toggle-item-title event-title" data-count="1">
+                      <h3>Регистрация</h3>
+                    </div>
+                    <div class="toggle-item-body" style="display: none;">
+                      <p>Регистрация и получаване на пропуските</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- end EVENT 1 --> 
+              
+               <!-- EVENT 1 -->
+              <article class="event">
+                <div class="timeline-icon">
+                  <div class="timeline-icon-container"><i class="iconf-ok"></i> </div>
+                </div>
+                <div class="time-box">
+                  <time>09:40</time>
+                </div>
+                <div class="timeline-content">
+                  <div class="event-content">
+                    <div class="toggle-item-title event-title" data-count="1">
+                      <h3>Oткриване</h3>
+                    </div>
+                    <div class="toggle-item-body" style="display: none;">
+                      <p>Какво имаме да кажем преди началото на конференцията. Думи и картинки от организаторите, спонсорите и от вас.</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- end EVENT 1 --> 
+              
+              
+              <!-- EVENT 3 -->
+              <article class="event">
+                <div class="timeline-icon">
+                  <div class="timeline-icon-container"><i class="iconf-microphone"></i> </div>
+                </div>
+                <div class="time-box">
+                  <time>10:00</time>
+                </div>
+                <div class="timeline-content">
+                  <div class="event-content">
+                    <div class="toggle-item-title event-title" data-count="1">
+                      <h3>We are family</h3>
+                      <h4>Danish Khan <span>GitHub</span></h4>
+                    </div>
+                    <div class="toggle-item-body" style="display: none;">
+                      <p> Having a great idea, creating useful products, and writing stellar code can be done by smart people. <br/><br/>The difficult part is figuring out how to get tons of smart people to work well together. <br/><br/>The social aspect is hard, but when you build a culture based off of values that are important to a family you’ll see the amazing things that can be done.</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- end EVENT 3 --> 
+              <!-- ADD AN EVENT HERE --> 
+            </section>
+          </div>
+          <!-- end span8 --> 
+          <!-- --> 
+        </div>
+        <div class="tab-pane wo-tab-pane fade" id="daytwo"> 
+          <!-- DAY TWO -->
+          <div class="span3">
+            <h2>Зала 2 - 150 места</h2>
+            <p>Тук ще си говорим за дизайн, интерфейси, работа с потребители и всякакви други неща, които може и да включват писане на код, но не е гарантирано.</p>
+             </div>
+          <!-- end span4 -->
+          <div class="span8"> 
+            <!-- TIMELINE -->
+            <section class="timeline toggle-shortcode toggles"> 
+              <!-- EVENT 1 -->
+              <article class="event">
+                <div class="timeline-icon">
+                  <div class="timeline-icon-container"><i class="iconf-microphone"></i> </div>
+                </div>
+                <div class="time-box">
+                  <time>08:00</time>
+                </div>
+                <div class="timeline-content">
+                  <div class="event-content">
+                    <div class="toggle-item-title event-title" data-count="1">
+                      <h3>Typography</h3>
+                      <h4>John Doe <span>Design Association</span></h4>
+                    </div>
+                    <div class="toggle-item-body" style="display: none;">
+                      <p>Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                        Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                        Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- end EVENT 1 --> 
+             
+              <!-- ADD AN EVENT HERE --> 
+            </section>
+          </div>
+          <!-- end span8 --> 
+          <!-- --> 
+        </div>
+        <div class="tab-pane wo-tab-pane fade" id="daythree"> 
+          <!-- DAY THREE -->
+          <div class="span4">
+            <h2>Зала 3 - 100 места</h2>
+            <p>Тук ще си говорим за маркетинг, бизнес, печелене на потребители и на пари...Все неща от които имам нужда освенн програмирането и дизайна.</p>
+             </div>
+          <!-- end span4 -->
+          <div class="span8"> 
+            <!-- TIMELINE -->
+            <section class="timeline toggle-shortcode toggles"> 
+              <!-- EVENT 1 -->
+              <article class="event">
+                <div class="timeline-icon">
+                  <div class="timeline-icon-container"><i class="iconf-microphone"></i> </div>
+                </div>
+                <div class="time-box">
+                  <time>08:00</time>
+                </div>
+                <div class="timeline-content">
+                  <div class="event-content">
+                    <div class="toggle-item-title event-title" data-count="1">
+                      <h3>HTML5</h3>
+                      <h4>Paula Poe</h4>
+                    </div>
+                    <div class="toggle-item-body" style="display: none;">
+                      <p>Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                        Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                        Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- end EVENT 1 --> 
+             
+              <!-- ADD AN EVENT HERE --> 
+            </section>
+          </div>
+          <!-- end span8 --> 
+          <!-- --> 
+        </div>
+        <div class="tab-pane wo-tab-pane fade" id="day4"> 
+          <!-- DAY TWO -->
+          <div class="span3">
+            <h2>Зала 4 - 100 места</h2>
+            <p>Още технологии, хакове, роботи и други неща, които ще бъдат все по-полезни в бъдеще.Тук ще е мястото и вие да се покажете в специалната BOF секция. Подгответе си тема и елате я представете за 15 мин.</p>
+            </div>
+          <!-- end span4 -->
+          <div class="span8"> 
+            <!-- TIMELINE -->
+            <section class="timeline toggle-shortcode toggles"> 
+              <!-- EVENT 1 -->
+              <article class="event">
+                <div class="timeline-icon">
+                  <div class="timeline-icon-container"><i class="iconf-microphone"></i> </div>
+                </div>
+                <div class="time-box">
+                  <time>08:00</time>
+                </div>
+                <div class="timeline-content">
+                  <div class="event-content">
+                    <div class="toggle-item-title event-title" data-count="1">
+                      <h3>Typography</h3>
+                      <h4>John Doe <span>Design Association</span></h4>
+                    </div>
+                    <div class="toggle-item-body" style="display: none;">
+                      <p>Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                        Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                        Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- end EVENT 1 --> 
+             
+              <!-- ADD AN EVENT HERE --> 
+            </section>
+          </div>
+          <!-- end span8 --> 
+          <!-- --> 
+        </div>
+      </div>
+      <!-- end tabs --> 
+      <!-- --> 
+    </div>
+    <!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
+
+
+
+
+
+
+
+<section id="venue" class="white">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="module-header venue-header">
+          <h4>Къде</h4>
+        </div>
+      </div>
+      <!-- end span12 -->
+      <div class="span12 hero-unit text-center white">
+        <h4>Конференцията ще се проведе във</h4>
+        <h2>Интер Експо Център</h2>
+        <p>Конференцията ще се проведе в ТРИ зали на този чудесен конферентен център.</p>
+      </div>
+      <!-- end hero-unit -->
+      <div class="span12 text-center">
+        <p>Повече информация за как да стигнете до него, къде можете да обядвате и друга полезна информация, ще намерите тук скоро.</p>
+      </div>
+      <!-- end span12 -->
+      <div class="span12">
+        <div class="subheader">
+          <h4>Полезна информация</h4>
+        </div>
+      </div>
+      <!-- end span12 -->
+      <div class="span4 text-center">
+        <div class="icon-wrap medium color1"><i class="iconf-flight"></i> </div>
+        <h3>Как да стигна</h3>
+        <p> </p>
+      </div>
+      <div class="span4 text-center">
+        <div class="icon-wrap medium color2"><i class="iconf-road"></i> </div>
+        <h3>Къде да обядвам</h3>
+        <p></p>
+      </div>
+      <div class="span4 text-center">
+        <div class="icon-wrap medium color3"><i class="iconf-suitcase"></i> </div>
+        <h3>Други</h3>
+        <p></p>
+      </div>
+            <!-- end span12 -->
+
+
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</section>
+<!-- end venue -->
+
+<!-- end map -->
+<section id="sponsors">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="module-header sponsors-header">
+          <h4>Спонсори и партньори</h4>
+        </div>
+      </div>
+      <!-- end module-header -->
+      <div class="span12 hero-unit text-center">
+        <h2>Спонсорите са жизнено важни за една успешна конференция.</h2>
+        <p>Благодарим за подкрепата на следните наши партньори и спонсори. Ако желаете да се включите в този чудесен състав, <a href="#contact">свържете се</a> с нас.</p>
+      </div>
+      <!-- end hero-unit -->
+      <div class="span12 text-center">
+        <div class="subheader">
+          <h4>Генерален Партньор</h4>
+        </div>
+        <!-- -->
+      </div>
+      <!-- end span12 -->
+      <div class="span12 text-center"> <a href="http://superhosting.bg"> <img src="http://bulgariawebsummit.com/p/sh.png" alt="" class="sponsor-logo" width="500"> </a> </div>
+
+      <div class="span12">
+        <div class="subheader">
+          <h4>Спонсори</h4>
+        </div>
+        <!-- -->
+      </div>
+      <!-- end span12 -->
+      <div class="span4 text-center"> <a href="http://github.com"> <img src="http://bulgariawebsummit.com/wp-content/uploads/2014/01/github-logo.png" alt="" class="sponsor-logo"> </a> </div>
+      <div class="span4 text-center"> <a href="http://seom.bg"> <img src="http://bulgariawebsummit.com/wp-content/uploads/2014/01/seo.gif" alt="" class="sponsor-logo"> </a> </div>
+              <div class="span4 text-center"> <a href="http://usersnap.com"> <img src="images/usersnaplogo.png" alt="" class="sponsor-logo"> </a> </div>
+       <div class="span12"><br/></div>
+      <div class="span4 text-center"> <a href="http://www.kentico.com"> <img src="http://www.kentico.com/kenticocom/media/Logos/Kentico_2D_base_width1200px.png" alt="" class="sponsor-logo"> </a> </div>
+       <div class="span4 text-center"> <a href="http://www.ustream.tv/"> <img src="images/800px-Ustream_Logo_2013.png" alt="" class="sponsor-logo"> </a> </div>
+      <div class="span4 text-center"> <a href="http://www.milestonesys.com/Company/Milestone-Systems/jobsandcareers/"> <img src="milestone-logo_tag.png" alt="" class="sponsor-logo"> </a> </div>
+<div class="span4 text-center"> <a href="http://www.ecommera.com/"> <img src="ecommera.jpg" alt="" class="sponsor-logo"> </a> </div>
+
+      
+  
+  
+      <div class="span12">
+        <div class="subheader">
+          <h4>Участници в изложба на приложения</h4>
+        </div>
+        <!-- -->
+      </div>
+      <!-- end span12 v-->
+      <div class="span3 text-center"> <a href="http://kanbanize.com"> <img src="http://bulgariawebsummit.com/wp-content/uploads/2014/01/kanbanize-logo-250x72.png" alt="" class="sponsor-logo"> </a> </div>
+      <div class="span3 text-center"> <a href="http://bgerp.com"> <img src="http://bulgariawebsummit.com/wp-content/uploads/2014/01/bgerp.com_.jpg" alt="" class="sponsor-logo"> </a> </div>
+      <div class="span3 text-center"> <a href="http://nebosystems.eu"> <img src="http://bulgariawebsummit.com/wp-content/uploads/2014/01/nebosystems_170_78.jpg" alt="" class="sponsor-logo"> </a> </div>
+      <div class="span3 text-center"> <a href="http://www.gombashop.bg"> <img src="gombashop.bg_websummit.jpg" alt="" class="sponsor-logo"> </a> </div>
+       <div class="span12"><br/></div>
+      <div class="span3 text-center"> <a href="http://net365.mobi"> <img src="https://net365.mobi/sites/all/themes/net365/img/branding.png" alt="" class="sponsor-logo"> </a> </div>
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</section>
+<!-- end sponsors -->
+<!-- end news -->
+  <!-- end twitter-feed -->
+<section id="contact" class="white">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="module-header contact-header">
+          <h4>За контакти и щепсели</h4>
+        </div>
+      </div>
+      <!-- end span12 -->
+      <div class="span12 hero-unit text-center white">
+        <h2>Връзка с нас</h2>
+             </div>
+      <div class="span12 text-center">
+                <!-- -->
+      </div>
+      <div class="span12 text-center">
+        <p>Винаги сме на разположение за въпроси, коментари и спонсори :)</p>
+      </div>
+      <div class="span4 text-center">
+        <p><i class="iconf-mobile"></i> Телефон: +359 (0) 2 492 83 66</p>
+      </div>
+      <div class="span4 text-center">
+        <p><i class="iconf-money"></i> skype: bogomilshopov</p>
+      </div>
+      <div class="span4 text-center">
+        <p><i class="iconf-mail"></i> Email: <a href="hello@bulgariawebsummit.com">hello@bulgariawebsummit.com</a> </p>
+      </div>
+
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</section>
+<!-- end contact -->
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="span12 text-center">
+        <div class="copyright">Някои права запазени - 2004-2014. УебТех, P2P Конференция, Bulgaria Web Summit<br />
+        <em>Екип Нула ЕООД - Млад екип от стари кучета.</em>
+        <br /><br />
+        Екип Нула Еоод, Булстат: 200707675, ул. Панайот Типографов 78, Велико Търново 5000. МОЛ: Богомил Шопов
+        <br/><br/>
+
+    Изборажението, което ползваме за фон е под <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons</a> лиценз с автор <a href="https://www.flickr.com/photos/jonassmith/7254136650">Jonas Smith</a>
+         </div>
+
+      <!-- end span12 -->
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</footer>
+<!-- end Document -->
+<!-- javascripts -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="js/jquery.ui.map.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="js/jquery.validationengine-en.min.js"></script>
+<script type="text/javascript" src="js/jquery.validationengine.min.js"></script>
+<script type="text/javascript" src="js/tweetie.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/scripts.hellobar.com/35135214ac217048db733c673224300fe2e3b06e.js"></script>
+</body>
+</html>
