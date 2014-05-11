@@ -1,9 +1,9 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
 <title>Bulgaria Web Summit 2014: #Програмиране, #UX, #UI, #Уеб, #Устройства</title>
-<meta name="description" content="Kонференция в София на 31 май. Лектори от Google, GitHub, Smashing и български звезди. Ела! " />
+<meta name="description" content="Kонференция в София на 31 май. Ела! " />
 <meta name="keywords" content="Програмиране, UX, UI, Вградени устройства, Маркетинг, Социални Мрежи, Сигурност и Бизнес." />
 <meta name="author" content="Екип Нула Еоод." />
 <!-- Mobile Specific Metas -->
@@ -15,8 +15,8 @@
 <link rel="stylesheet" href="css/fonts.css" />
 <link rel="stylesheet" href="css/fontello.css" />
 <link rel="stylesheet" href="css/jquery.countdown.css" />
-	<link rel="stylesheet" href="css/jquery.validationengine.css" />
-	<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.validationengine.css" />
+<link rel="stylesheet" href="css/flexslider.css">
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -49,13 +49,13 @@
             <div class="nav-collapse collapse">
               <ul id="mainnav" class="nav">
                 <li> <a href="#about" onclick="ga('send', 'event', 'nav', 'click', 'about');">За събитието</a> </li>
-                 <li> <a href="#schedule" onclick="ga('send', 'event', 'nav', 'click', 'schedule');">Програмата</a> </li>
-                <li> <a href="#speakers" onclick="ga('send', 'event', 'nav', 'click', 'speakers');">Лектори и Лекции</a> </li>
-                <!--<li><a href="#workshops" onclick="ga('send', 'event', 'nav', 'click', 'webinars');">Уебинари</a> </li>-->
+                <li> <a href="#speakers" onclick="ga('send', 'event', 'nav', 'click', 'speakers');">Лектори</a> </li>
+                <li> <a href="#schedule" onclick="ga('send', 'event', 'nav', 'click', 'schedule');">Програмата</a> </li>
+                <li><a href="#workshops" onclick="ga('send', 'event', 'nav', 'click', 'webinars');">Партита</a> </li>
                 <li><a href="#venue" onclick="ga('send', 'event', 'nav', 'click', 'venue');">Къде</a> </li>
-                <li><a href="#sponsors" onclick="ga('send', 'event', 'nav', 'click', 'sponsors');;">Спонсори</a> </li>
-                <li><a href="#contact" onclick="ga('send', 'event', 'nav', 'click', 'contacts');;">Контакти</a> </li>
-                <li><a href="" onclick="ga('send', 'event', 'light', 'click', 'light0');" data-toggle="modal" data-target="#modal-register"><span style="color:#FF0066;">Купете билет от тук</span></a> </li>
+                <li><a href="#sponsors" onclick="ga('send', 'event', 'nav', 'click', 'sponsors');">Спонсори</a> </li>
+                <li><a href="#contact" onclick="ga('send', 'event', 'nav', 'click', 'contacts');">Контакти</a> </li>
+                <li><a href="" onclick="ga('send', 'event', 'light', 'click', 'light0');" data-toggle="modal" data-target="#modal-register"><span style="color:#FF0066;">Билети</span></a> </li>
               </ul>
             </div>
           </nav>
@@ -78,7 +78,7 @@
             <div class="span12 text-center">
               <h1  class="url summary">Bulgaria Web Summit 2014</h1>
               <h3 class="info"><span class="days">31</span><span class="month"><b>Май</b></span><span class="year">2014</span><span class="location">софия</span></h3>
-              <a href="" data-toggle="modal" data-target="#modal-register" class="btn btn-large" onclick="ga('send', 'event', 'light', 'click', 'light1');">Купете билет</a> </div>
+              <a href="" data-toggle="modal" data-target="#modal-register" class="btn btn-large" onclick="ga('send', 'event', 'light', 'click', 'light1');">Регистрация</a> </div>
             <!-- end span12 -->
           </div>
           <!-- end row -->
@@ -93,33 +93,20 @@
 </section>
 <!-- end intro section -->
 <!-- Modal -->
-<div class="modal hide fade" id="modal-register"  style="width:650px;height:550px">
+<div class="modal hide fade" id="modal-register"  style="width:650px;height:250px">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-    <h3>Вече сме в 4 зали.</h3>
+    <h3>Билетите са изчерпани.</h3>
   </div>
   <div class="modal-body">
-    <h6>След като свършиха всичките 500 билета, решихме да вземем нова зала, за да можем да предложим още билети и по-полезна програма.</h6>
-     <small>За плащане по банков път или за фирмени отстъпки, моля, пишете на hello@bulgariawebsummit.com</small>
-  <div style="width:100%; text-align:left;"><iframe src="http://sabitie.bg/code/event/419/size/2" frameborder="0" height="400" width="620" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
-   
-
+    <h5>Всичките места за събитието в София са разпродадени. <br/>Не съжалявайте, подготвяме <span style="color:#FF0066">ново събитие</span> във Велико Търново през есента!</h5>
+    <a href="http://www.how.camp" class="btn btn-large btn-primary" target=_blank>Запазете си билет от тук!</a>
+  
   </div>
   <!-- end modal-body -->
   <div class="modal-footer"> <a data-dismiss="modal" class="btn">Затвори</a> </div>
 </div>
 
-<div class="modal hide fade" id="modal-event">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-    <h3>Регистрация за уебинар</h3>
-  </div>
-  <div class="modal-body">
-    <h5>Тези уебинари са за участници в конференцията. Ако вече сте регистриран/а, изпратете мейл на <a href="mailto:webinars@bulgariawebsimmit.com">webinars@bulgariawebsummit.com</a> за да заявите участие.</h5>
-      </div>
-  <!-- end modal-body -->
-  <div class="modal-footer"> <a data-dismiss="modal" class="btn">Затвори</a> </div>
-</div>
 
 
 <!-- top-bar, intro & modal end here -->
@@ -536,8 +523,6 @@ HIC-Audit-Service and the Research and Development.</div>
   <!-- end container -->
 </section>
 
-
-
 <section id="schedule">
   <div class="container">
     <div class="row">
@@ -551,10 +536,10 @@ HIC-Audit-Service and the Research and Development.</div>
       <div class="span12"> 
         <!-- Tabs -->
         <ul id="schedule-tabs" class="nav nav-pills tab-fillspace ">
-          <li class="active"><a href="#dayone" data-toggle="tab">Зала 1 <br/>(Основна)</a> </li>
-          <li class=""><a href="#daytwo" data-toggle="tab">Зала 2 <br/>(#UX, #UI, #VDT)</a> </li>
-          <li class=""><a href="#daythree" data-toggle="tab">Зала 3 <br/>(Бизнес, Маркетинг, Идеи)</a> </li>
-            <li class=""><a href="#day4" data-toggle="tab">Зала 4 <br/>(Технологии, Программиране)</a> </li>
+          <li class="active"><a href="#dayone" data-toggle="tab">Зала 1 <br/>(2 етаж)</a> </li>
+          <li class=""><a href="#daytwo" data-toggle="tab">Зала 2 <br/>(3 етаж)</a> </li>
+          <li class=""><a href="#daythree" data-toggle="tab">Зала 3 <br/>(3 етаж)</a> </li>
+            <li class=""><a href="#day4" data-toggle="tab">Зала 4 <br/>(2 етаж)</a> </li>
         </ul>
         <!-- end tabs --> 
       </div>
@@ -773,8 +758,69 @@ HIC-Audit-Service and the Research and Development.</div>
 
 
 
-
-
+<!-- WORKSHOPS -->
+<section id="workshops">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="module-header workshops-header">
+          <h4>Партита</h4>
+        </div>
+      </div>
+      <!-- end span12 -->
+      <ul class="event-items">
+        <li class="event-item clearfix span6">
+          <div class="event-date">
+            <time datetime="2014-05-30">Петък, 30 май</time>
+          </div>
+          <!-- end event-date -->
+         
+          <br class="clearfix">
+          <div class="event-entry text-center">
+            <h3 class="entry-title">GitHub парти</h3>
+            <p class="lead">Спонсор: GitHub</p>
+            <div class="event-image"> <img src="images/photos/gh.jpg" alt="GitHub Drinkabout" class="img-circle" width="500"> </div>
+            <div class="entry-content">
+              <h4>
+                <time datetime="09:00">19:00 - 21:00</time>
+              </h4>
+              <h4>Бирария Халбите, ул. Черковна</h4>
+              <p>Гитхъб кани всички участници в конференцията, които ползват техните услуги на малко парти, преди конференцията. Повече подробности - скоро.</p>
+            </div>
+            <!-- end event-entry --> 
+          </div>
+          <!-- end span4 --> 
+        </li>
+        <!-- end event-item -->
+        <li class="event-item clearfix span6">
+          <div class="event-date">
+            <time datetime="2014-05-31">Събота, 31 май</time>
+          </div>
+          <!-- end event-date -->
+                   <br class="clearfix">
+          <div class="event-entry text-center">
+            <h3 class="entry-title">WebSummit парти.</h3>
+            <p class="lead">Спонсор: Superhosting.bg</p>
+            <div class="event-image"> <img src="images/photos/wt.jpg" alt="WebTeh Party" class="img-circle" width="500"> </div>
+            <div class="entry-content">
+              <h4>
+                <time datetime="14:00">18:30 - 0:00</time>
+              </h4>
+              <h4>Бирария Халбите, ул. Черковна</h4>
+              <p>След като завърши конферентния ден ще имаме парти.Напитките и мезетата са осигурени.  Повече информация за това как да бъдете част от партито, ще има тук.</p>
+            </div>
+            <!-- end event-entry --> 
+          </div>
+          <!-- end span4 --> 
+        </li>
+       
+        <!-- end event-item -->
+      </ul>
+    </div>
+    <!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
 
 <section id="venue" class="white">
   <div class="container">
