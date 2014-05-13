@@ -1333,12 +1333,11 @@ a.instagram:hover {
 	cursor: pointer;
 }
 .toggle-item-title {
-	background: url(../images/icons/toggle.png) scroll no-repeat right 5px transparent;
+	background: url(../images/icons/toggle.png) scroll no-repeat right 15px transparent;
 	padding: 0 32px 0 0;
 }
 .toggle-item-title.event-title.ui-state-active {
-	background: url(../images/icons/toggle-close.png) scroll no-repeat right 5px transparent;
-	padding: 0 32px 0 0;
+	background-image: url(../images/icons/toggle-close.png);
 }
 /* Modal */
 .modal {
@@ -1465,7 +1464,7 @@ a.instagram:hover {
 }
 .time-box {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	z-index: 1;
 }
 .time-box:before {
@@ -1509,17 +1508,23 @@ a.instagram:hover {
 	width: 100%;/*width: -moz-calc(100% - 30px);/* Firefox *//*width: -webkit-calc(100% - 30px);/* WebKit *//*width: -o-calc(100% - 30px);/* Opera *//*width: calc(100% - 30px);/* Standard */
 }
 .event-content:before {
-	background: url("../images/tri_left.png") no-repeat scroll 0 0 transparent;
-	content: " ";
-	height: 16px;
-	left: -8px;
+	content: '';
+	height: 0;
+	left: -18px;
 	position: absolute;
-	top: 25px;
-	width: 8px;
+	top: 23px;
+	width: 0;
+	border: 10px solid transparent;
+	border-right-color: #fff;
+}
+.event-title {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .event-title h3 {
 	font-size: 22px;
 	line-height: 40px;
+	margin: 0;
 	text-transform: uppercase;
 }
 .event-title h3 span {
@@ -1530,6 +1535,9 @@ a.instagram:hover {
 .event-title h4 span {
 	color: #999999;
 	font-weight: 400;
+}
+.event-content ul {
+	list-style-type: disc;
 }
 
 /* Alerts */
@@ -1830,6 +1838,28 @@ a.instagram:hover {
 }
  .speakers-list ul li .photo-wrap {
  margin: 0 auto;
+}
+.timeline:before {
+	display: none;
+}
+.timeline-content {
+	margin-left: 65px;
+}
+.timeline-icon {
+	display: none;
+}
+.time-box {
+	top: 18px;
+}
+.time-box time {
+	padding: 0;
+}
+.event-content:before {
+	top: 20px;
+}
+.event-content h3 {
+	line-height: 1;
+	margin: 9px 0;
 }
 }
 /* 480px */
