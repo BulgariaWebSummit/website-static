@@ -1327,6 +1327,14 @@ a.instagram:hover {
 #schedule-tabs {
 	margin-bottom: 40px;
 }
+#schedule .tab-pane {
+	margin-bottom: 40px;
+}
+#schedule .tab-pane:after {
+	content: '';
+	display: table;
+	clear: both;
+}
 /* Toggle */
 
 .toggle-item-title {
@@ -1336,8 +1344,16 @@ a.instagram:hover {
 	background: url(../images/icons/toggle.png) scroll no-repeat right 15px transparent;
 	padding: 0 32px 0 0;
 }
-.toggle-item-title.event-title.ui-state-active {
+.toggle-item-title.ui-state-active {
 	background-image: url(../images/icons/toggle-close.png);
+}
+.js .toggle-item-body {
+	max-height: 0;
+	overflow: hidden;
+	transition: all ease 500ms;
+}
+.js .toggle-item-title.ui-state-active + .toggle-item-body {
+	max-height: 1000px;
 }
 /* Modal */
 .modal {

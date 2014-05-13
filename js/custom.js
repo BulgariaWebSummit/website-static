@@ -88,7 +88,6 @@ $(document).ready(function () {
 
 	// Toggle //
 	$('.toggle-item-title').click(function () {
-		$(this).next().slideToggle();
 		$(this).toggleClass(
 			'ui-state-active');
 	});
